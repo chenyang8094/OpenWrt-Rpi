@@ -8,6 +8,9 @@
 
 name: Build bcm27xx/bcm2711 openwrt
 
+
+permissions: write-all
+
 on:
   workflow_dispatch:
   schedule:
